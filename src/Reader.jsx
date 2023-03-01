@@ -5,9 +5,9 @@ import Data from './data/quotes(CSV).json';
 
 function Reader() {
 
-const [quote ,setQuote ] = useState('hello world');
-const [author ,setAuthor ] = useState('hello world');
-const [bgcolor ,setBgcolor ] = useState(['blue' , 'white']);
+const [quote ,setQuote ] = useState('Ignite: A new way of getting inspired ');
+const [author ,setAuthor ] = useState('Tap to get inspired ');
+const [bgcolor ,setBgcolor ] = useState(['#2c2c2c', 'white']);
  
 
 
