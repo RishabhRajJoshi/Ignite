@@ -56,7 +56,7 @@ function handleclick(e) {
 
   return (
     <div  style={{"backgroundColor" : bgcolor[0],"color" : bgcolor[1] }} onClick={handleclick}   className=' transition-all duration-300 flex justify-center items-center h-screen'>
-    <div className=' w-60 font-mono'>
+    <div className=' w-60 font-mono md:text-sm  lg:text-sm xl:text-sm sm:text-lg  text-lg '>
     <h1 className=' text-center  '>{quote}</h1>
     <br />
     <p className='pt-4 text-center'>- {author}</p>
